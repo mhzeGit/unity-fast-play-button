@@ -4,13 +4,13 @@ A Unity Editor package that adds a **Fast Play** button to the toolbar for quick
 
 ---
 
-## How it works
+## Features
 
-- Click **Fast Play** to enter Play Mode with Domain/Scene reload disabled (faster entry).
-- The button turns green and becomes a **Stop** button while fast-playing.
-- When you exit Play Mode, your original Enter Play Mode settings are restored automatically.
-- The standard Play button is unaffected and always uses your normal settings.
-- If the editor is closed or scripts reload mid-session, settings are still safely restored.
+- Dedicated Fast Play button on the Unity toolbar
+- Temporarily disables Domain Reload and Scene Reload for faster Play Mode entry
+- Automatically restores your original settings when exiting Play Mode
+- Standard Play button is unaffected and always uses your normal settings
+- Settings are safely restored even if the editor is closed or scripts reload mid-session
 
 ---
 
@@ -22,10 +22,8 @@ A Unity Editor package that adds a **Fast Play** button to the toolbar for quick
 
 ## Installation
 
-Install via the Unity Package Manager using the Git URL:
-
 1. Open **Window → Package Manager**
-2. Click the **+** button and select **Add package from git URL...**
+2. Click the **+** button → **Add package from git URL...**
 3. Enter:
    ```
    https://github.com/mhzeGit/unity-fast-play-button.git
@@ -34,7 +32,7 @@ Install via the Unity Package Manager using the Git URL:
 
 ---
 
-## Usage
+## How It Works
 
 Once installed, a **Fast Play** button appears on the right side of the Unity toolbar, next to the default Play controls.
 
@@ -44,10 +42,12 @@ Once installed, a **Fast Play** button appears on the right side of the Unity to
 | Fast playing | Green Stop button |
 | Playing normally | Fast Play button disabled |
 
-Click **Fast Play** to start, click the green **Stop** button to exit.
+1. Click **Fast Play** to enter Play Mode with Domain/Scene reload disabled
+2. The button turns green and becomes a **Stop** button while fast-playing
+3. Click the green **Stop** button to exit — your original settings are restored automatically
 
 ---
 
-## License
+## Author
 
-MIT
+Made by [mhze](mailto:mhze.uk@gmail.com)
