@@ -28,7 +28,7 @@ Install via the Unity Package Manager using the Git URL:
 2. Click the **+** button and select **Add package from git URL...**
 3. Enter:
    ```
-   https://github.com/mhze/unity-fast-play-button.git
+   https://github.com/mhzeGit/unity-fast-play-button.git
    ```
 4. Click **Add**
 
