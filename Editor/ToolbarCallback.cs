@@ -13,9 +13,8 @@ using UnityEngine.Experimental.UIElements;
 namespace FastPlayButtonTool.Toolbar
 {
 	/// <summary>
-	/// Hooks into Unity's internal Toolbar to allow custom IMGUI drawing.
+	/// Hooks into Unity's internal Toolbar for custom IMGUI drawing.
 	/// Based on 'Unity Toolbar Extender' by Marijn Zwemmer (MIT License).
-	/// https://github.com/marijnz/unity-toolbar-extender
 	/// </summary>
 	public static class ToolbarCallback
 	{

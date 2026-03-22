@@ -10,7 +10,6 @@ namespace FastPlayButtonTool.Toolbar
 	/// <summary>
 	/// Extends the Unity Editor toolbar with custom left/right GUI areas.
 	/// Based on 'Unity Toolbar Extender' by Marijn Zwemmer (MIT License).
-	/// https://github.com/marijnz/unity-toolbar-extender
 	/// </summary>
 	[InitializeOnLoad]
 	public static class ToolbarExtender
